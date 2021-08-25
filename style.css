@@ -1,0 +1,135 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+
+}
+#html,#body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+#body{
+    background-color: rgb(160, 136, 42);
+}
+img{
+    width: 20%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+form{
+    width: 30%;
+    /*background-color: #0541CA;*/
+   /* background-color: #0c95da;*/
+  /* background-color: rgb(0, 98, 255);
+    border: solid 6px #3d6389;*/
+    border: solid 1px #dad5d59d;
+    height: 320px;
+    display: block;
+    margin-top:12%;
+    /*border-radius: 10%;*/
+    margin: 0 auto;
+    padding-bottom: 8%;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+#facebook{
+    font-size:30px;
+    display: block;
+    width: fit-content;
+    color: black;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+#note{
+    font-size:30px;
+    display: block;
+    width: fit-content;
+    color: black;
+    margin: 0 auto;
+    margin-top: 7%;
+}
+#inputcase{
+    width: 90%;
+    height: 50px;
+        display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 13%;
+    margin-bottom: 7%;
+    height: 100%;
+    border:solid 1px #dddfe2;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+    direction: rtl;
+
+}
+button{
+    margin:0 auto;
+    /*width: 40%;*/
+    width: 90%;
+    height: 25%;
+    background-color: #1877f2;
+    color: floralwhite;
+    display: block;
+    margin-top: 10%;
+    /*margin-bottom: 7px;*/
+    font-size: 26px;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+}
+#p{
+    text-align: center;
+    margin:0 auto;
+    width: 30%;
+    display: block;
+    margin-top: 4%;
+    font-size: 20px;
+    font-family:Helvetica, sans-serif;
+}
+@media(max-width:500px){
+    img{
+        width: 40%;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        margin: 0 auto;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    form{
+        width: 93%;
+        padding-bottom: 4%;
+        height: 270px;
+    }
+    #p{
+        width: 93%;
+        margin-top: 8%;
+    }
+    button{
+        width: 90%;
+        height: 15%;
+        background-color: #1877f2;
+        color: floralwhite;
+        display: block;
+        margin-top: 10%;
+        /*margin-bottom: 7px;*/
+        font-size: 26px;
+        border-radius: 5px;
+        border: none;
+        padding: 4px;
+    }
+}
